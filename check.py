@@ -5,7 +5,7 @@ index.json, for every version of every plugin: the tag exists in the repository,
 the plugin.json there has the plugin's id, the version's version and the permissions the catalog lists.
 
 themes.json, for every theme: themes/<id>.json exists, is valid JSON, and uses only the keys, colours and values
-docs/THEMES.md describes; every file of themes/ is listed.
+docs/THEMES.md describes, with readable contrast (WCAG AA) in each appearance; every file of themes/ is listed.
 """
 import json
 import os
@@ -117,6 +117,48 @@ def check_colors(colors, where, problems):
             problems.append(f"{where}.{key}: {value!r} is not #RRGGBB or #RRGGBBAA")
 
 
+def luminance(hex_color):
+    def channel(value):
+        value = int(value, 16) / 255
+        return value / 12.92 if value <= 0.03928 else ((value + 0.055) / 1.055) ** 2.4
+    r, g, b = hex_color[1:3], hex_color[3:5], hex_color[5:7]
+    return 0.2126 * channel(r) + 0.7152 * channel(g) + 0.0722 * channel(b)
+
+
+def contrast(a, b):
+    x, y = luminance(a), luminance(b)
+    return (max(x, y) + 0.05) / (min(x, y) + 0.05)
+
+
+# What must stay readable, as in Loam's own themes (WCAG AA): (colour, surface, minimum ratio).
+READABLE = [
+    ("text", "background", 4.5), ("heading", "background", 4.5), ("text", "sidebar", 4.5),
+    ("secondaryText", "background", 3), ("link", "background", 3), ("accent", "background", 3),
+    ("tagText", "tagBackground", 3),
+]
+
+
+def check_contrast(theme, where, problems):
+    appearance = theme.get("appearance", "auto")
+    light = theme.get("colors", {})
+    sides = []
+    if appearance != "dark":
+        sides.append(("light" if appearance == "auto" else appearance, light))
+    if appearance != "light":
+        sides.append(("dark", {**light, **theme.get("dark", {}).get("colors", {})} if appearance == "auto" else light))
+    for side, colors in sides:
+        if appearance == "auto" and side == "dark" and not theme.get("dark"):
+            problems.append(f"{where}: appearance auto needs a dark block, or set appearance to light or dark")
+            continue
+        for key, surface, minimum in READABLE:
+            color, ground = colors.get(key), colors.get(surface)
+            if not color or not ground or not COLOR.match(color) or not COLOR.match(ground):
+                continue
+            ratio = contrast(color, ground)
+            if ratio < minimum:
+                problems.append(f"{where}: {side} {key} on {surface} is {ratio:.2f}:1, needs {minimum}:1")
+
+
 def check_theme(theme, where, problems):
     if not isinstance(theme, dict):
         problems.append(f"{where}: must be a JSON object")
@@ -187,6 +229,8 @@ def check_themes(path="themes.json"):
             problems.append(f"{where}: no readable themes/{tid}.json: {error}")
             continue
         check_theme(theme, f"{where} (themes/{tid}.json)", problems)
+        if isinstance(theme, dict):
+            check_contrast(theme, f"{where} (themes/{tid}.json)", problems)
         if isinstance(theme, dict) and theme.get("name", entry.get("name")) != entry.get("name"):
             problems.append(f"{where}: themes/{tid}.json is named {theme.get('name')!r}, themes.json says {entry.get('name')!r}")
         if isinstance(theme, dict) and theme.get("appearance", "auto") != entry.get("appearance", "auto"):
