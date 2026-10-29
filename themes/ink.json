@@ -1,0 +1,81 @@
+{
+  "name": "Ink",
+  "appearance": "auto",
+  "colors": {
+    "accent": "#1F5CFF",
+    "text": "#0E0E10",
+    "secondaryText": "#5E5E66",
+    "background": "#F5F4EF",
+    "separator": "#DEDCD3",
+    "codeBackground": "#ECEAE2",
+    "link": "#1F5CFF",
+    "marker": "#A5A39B",
+    "heading": "#0E0E10",
+    "highlight": "#D6E1FF",
+    "tagText": "#1F5CFF",
+    "tagBackground": "#E3E9FB",
+    "checkbox": "#1F5CFF",
+    "checkboxBorder": "#A5A39B",
+    "quoteBar": "#0E0E10",
+    "sidebar": "#EDEBE4"
+  },
+  "dark": {
+    "colors": {
+      "accent": "#6E95FF",
+      "text": "#ECEBE6",
+      "secondaryText": "#9C9BA3",
+      "background": "#0E0E10",
+      "separator": "#2A2A30",
+      "codeBackground": "#18181C",
+      "link": "#6E95FF",
+      "marker": "#55555D",
+      "heading": "#F5F4EF",
+      "highlight": "#1E2A55",
+      "tagText": "#8FADFF",
+      "tagBackground": "#1A2140",
+      "checkbox": "#6E95FF",
+      "checkboxBorder": "#55555D",
+      "quoteBar": "#ECEBE6",
+      "sidebar": "#0A0A0C"
+    }
+  },
+  "fonts": {
+    "body": "SF Pro",
+    "mono": "SF Mono",
+    "interface": "SF Pro",
+    "size": 16
+  },
+  "editor": {
+    "lineHeight": 1.3,
+    "columnWidth": 720
+  },
+  "headings": {
+    "weight": "medium",
+    "letterSpacing": -0.5,
+    "rules": [
+      1
+    ]
+  },
+  "tasks": {
+    "checkbox": "square",
+    "strikethrough": true
+  },
+  "tags": {
+    "shape": "rounded"
+  },
+  "shape": {
+    "corners": "square"
+  },
+  "icons": {
+    "tint": "mono"
+  },
+  "cards": {
+    "style": "flat"
+  },
+  "labels": {
+    "style": "mono"
+  },
+  "decor": {
+    "halftone": true
+  }
+}

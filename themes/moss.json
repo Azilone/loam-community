@@ -1,0 +1,70 @@
+{
+  "name": "Moss",
+  "appearance": "auto",
+  "colors": {
+    "accent": "#2F5D45",
+    "text": "#1E2420",
+    "secondaryText": "#68736C",
+    "background": "#F6F5EF",
+    "separator": "#E1E3DA",
+    "codeBackground": "#ECEDE4",
+    "link": "#2F5D45",
+    "marker": "#A9B0A6",
+    "heading": "#14201A",
+    "highlight": "#DCE8C8",
+    "tagText": "#2F5D45",
+    "tagBackground": "#E2EBDF",
+    "checkbox": "#2F5D45",
+    "checkboxBorder": "#A9B0A6",
+    "quoteBar": "#2F5D45",
+    "sidebar": "#EEEEE6"
+  },
+  "dark": {
+    "colors": {
+      "accent": "#7FB894",
+      "text": "#E2E6DF",
+      "secondaryText": "#98A29A",
+      "background": "#151A17",
+      "separator": "#2A322D",
+      "codeBackground": "#1D2420",
+      "link": "#7FB894",
+      "marker": "#56615A",
+      "heading": "#EEF2EC",
+      "highlight": "#33462F",
+      "tagText": "#9CCBAD",
+      "tagBackground": "#22302A",
+      "checkbox": "#7FB894",
+      "checkboxBorder": "#56615A",
+      "quoteBar": "#7FB894",
+      "sidebar": "#111512"
+    }
+  },
+  "fonts": {
+    "body": "SF Pro",
+    "mono": "SF Mono",
+    "size": 16
+  },
+  "editor": {
+    "lineHeight": 1.3,
+    "columnWidth": 720
+  },
+  "headings": {
+    "weight": "semibold",
+    "sizes": [
+      1.5,
+      1.3,
+      1.15,
+      1
+    ]
+  },
+  "tasks": {
+    "checkbox": "circle",
+    "strikethrough": true
+  },
+  "tags": {
+    "shape": "capsule"
+  },
+  "sidebar": {
+    "selection": "filled"
+  }
+}

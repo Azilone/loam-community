@@ -1,0 +1,45 @@
+{
+  "name": "Night",
+  "appearance": "dark",
+  "colors": {
+    "accent": "#7AA2F7",
+    "text": "#D8DEE9",
+    "secondaryText": "#8A94A6",
+    "background": "#16181D",
+    "separator": "#2A2E36",
+    "codeBackground": "#1F232B",
+    "link": "#7AA2F7",
+    "marker": "#4C5566",
+    "heading": "#ECEFF4",
+    "highlight": "#3B4A6B",
+    "tagText": "#7AA2F7",
+    "tagBackground": "#232B3D",
+    "checkbox": "#7AA2F7",
+    "checkboxBorder": "#4C5566",
+    "quoteBar": "#7AA2F7",
+    "sidebar": "#111317"
+  },
+  "fonts": {
+    "body": "SF Pro",
+    "mono": "SF Mono",
+    "size": 15
+  },
+  "editor": {
+    "lineHeight": 1.35,
+    "columnWidth": 760
+  },
+  "headings": {
+    "weight": "semibold",
+    "rules": [
+      1,
+      2
+    ]
+  },
+  "tasks": {
+    "checkbox": "circle",
+    "strikethrough": false
+  },
+  "tags": {
+    "shape": "capsule"
+  }
+}

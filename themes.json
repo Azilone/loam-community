@@ -1,0 +1,36 @@
+{
+  "themes": [
+    {
+      "id": "ink",
+      "name": "Ink",
+      "author": "Azilone",
+      "description": "Loam's own look: paper, ink and one blue, square corners and mono labels.",
+      "version": "1.0.0",
+      "appearance": "auto"
+    },
+    {
+      "id": "moss",
+      "name": "Moss",
+      "author": "Azilone",
+      "description": "Soft greens on warm paper, a deep forest at night.",
+      "version": "1.0.0",
+      "appearance": "auto"
+    },
+    {
+      "id": "night",
+      "name": "Night",
+      "author": "Azilone",
+      "description": "A calm dark theme with a cool blue accent.",
+      "version": "1.0.0",
+      "appearance": "dark"
+    },
+    {
+      "id": "paper",
+      "name": "Paper",
+      "author": "Azilone",
+      "description": "Serif headings on cream paper, with a burnt-orange accent.",
+      "version": "1.0.0",
+      "appearance": "auto"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 562 426" width="562" height="426">
+<g transform="translate(0,0)">
+<rect width="268" height="176" rx="2" fill="#F5F4EF" stroke="#DEDCD3"/>
+<path d="M2 0 H64 V176 H2 Q0 176 0 174 V2 Q0 0 2 0Z" fill="#EDEBE4"/>
+<line x1="64" y1="0" x2="64" y2="176" stroke="#DEDCD3"/>
+<rect x="12" y="18" width="34" height="5" rx="2.5" fill="#1F5CFF" opacity="1"/>
+<rect x="12" y="34" width="26" height="5" rx="2.5" fill="#5E5E66" opacity="0.45"/>
+<rect x="12" y="50" width="30" height="5" rx="2.5" fill="#5E5E66" opacity="0.45"/>
+<rect x="12" y="66" width="22" height="5" rx="2.5" fill="#5E5E66" opacity="0.45"/>
+<rect x="84" y="20" width="110" height="10" rx="3" fill="#0E0E10"/>
+<line x1="84" y1="40" x2="250" y2="40" stroke="#DEDCD3"/>
+<rect x="84" y="52" width="150" height="5" rx="2.5" fill="#0E0E10" opacity=".75"/>
+<rect x="84" y="64" width="60" height="5" rx="2.5" fill="#0E0E10" opacity=".75"/>
+<rect x="148" y="62" width="56" height="9" rx="2" fill="#D6E1FF"/>
+<rect x="150" y="64" width="52" height="5" rx="2.5" fill="#0E0E10" opacity=".75"/>
+<rect x="84" y="84" width="10" height="10" rx="2.5" fill="#1F5CFF"/>
+<rect x="102" y="86.5" width="90" height="5" rx="2.5" fill="#5E5E66" opacity=".7"/>
+<rect x="84" y="102" width="10" height="10" rx="2.5" fill="none" stroke="#A5A39B" stroke-width="1.4"/>
+<rect x="102" y="104.5" width="110" height="5" rx="2.5" fill="#0E0E10" opacity=".75"/>
+<rect x="84" y="126" width="46" height="16" rx="4" fill="#E3E9FB"/>
+<rect x="92" y="131.5" width="30" height="5" rx="2.5" fill="#1F5CFF"/>
+<circle cx="244" cy="154" r="8" fill="#1F5CFF"/>
+</g>
+<text x="2" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#0E0E10">INK</text>
+<text x="266" y="198" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#0E0E10" opacity=".55">ink</text>
+<g transform="translate(292,0)">
+<rect width="268" height="176" rx="12" fill="#F6F5EF" stroke="#E1E3DA"/>
+<path d="M12 0 H64 V176 H12 Q0 176 0 164 V12 Q0 0 12 0Z" fill="#EEEEE6"/>
+<line x1="64" y1="0" x2="64" y2="176" stroke="#E1E3DA"/>
+<rect x="12" y="18" width="34" height="5" rx="2.5" fill="#2F5D45" opacity="1"/>
+<rect x="12" y="34" width="26" height="5" rx="2.5" fill="#68736C" opacity="0.45"/>
+<rect x="12" y="50" width="30" height="5" rx="2.5" fill="#68736C" opacity="0.45"/>
+<rect x="12" y="66" width="22" height="5" rx="2.5" fill="#68736C" opacity="0.45"/>
+<rect x="84" y="20" width="110" height="10" rx="3" fill="#14201A"/>
+<line x1="84" y1="40" x2="250" y2="40" stroke="#E1E3DA"/>
+<rect x="84" y="52" width="150" height="5" rx="2.5" fill="#1E2420" opacity=".75"/>
+<rect x="84" y="64" width="60" height="5" rx="2.5" fill="#1E2420" opacity=".75"/>
+<rect x="148" y="62" width="56" height="9" rx="2" fill="#DCE8C8"/>
+<rect x="150" y="64" width="52" height="5" rx="2.5" fill="#1E2420" opacity=".75"/>
+<rect x="84" y="84" width="10" height="10" rx="5" fill="#2F5D45"/>
+<rect x="102" y="86.5" width="90" height="5" rx="2.5" fill="#68736C" opacity=".7"/>
+<rect x="84" y="102" width="10" height="10" rx="5" fill="none" stroke="#A9B0A6" stroke-width="1.4"/>
+<rect x="102" y="104.5" width="110" height="5" rx="2.5" fill="#1E2420" opacity=".75"/>
+<rect x="84" y="126" width="46" height="16" rx="8" fill="#E2EBDF"/>
+<rect x="92" y="131.5" width="30" height="5" rx="2.5" fill="#2F5D45"/>
+<circle cx="244" cy="154" r="8" fill="#2F5D45"/>
+</g>
+<text x="294" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#0E0E10">MOSS</text>
+<text x="558" y="198" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#0E0E10" opacity=".55">moss</text>
+<g transform="translate(0,216)">
+<rect width="268" height="176" rx="12" fill="#16181D" stroke="#2A2E36"/>
+<path d="M12 0 H64 V176 H12 Q0 176 0 164 V12 Q0 0 12 0Z" fill="#111317"/>
+<line x1="64" y1="0" x2="64" y2="176" stroke="#2A2E36"/>
+<rect x="12" y="18" width="34" height="5" rx="2.5" fill="#7AA2F7" opacity="1"/>
+<rect x="12" y="34" width="26" height="5" rx="2.5" fill="#8A94A6" opacity="0.45"/>
+<rect x="12" y="50" width="30" height="5" rx="2.5" fill="#8A94A6" opacity="0.45"/>
+<rect x="12" y="66" width="22" height="5" rx="2.5" fill="#8A94A6" opacity="0.45"/>
+<rect x="84" y="20" width="110" height="10" rx="3" fill="#ECEFF4"/>
+<line x1="84" y1="40" x2="250" y2="40" stroke="#2A2E36"/>
+<rect x="84" y="52" width="150" height="5" rx="2.5" fill="#D8DEE9" opacity=".75"/>
+<rect x="84" y="64" width="60" height="5" rx="2.5" fill="#D8DEE9" opacity=".75"/>
+<rect x="148" y="62" width="56" height="9" rx="2" fill="#3B4A6B"/>
+<rect x="150" y="64" width="52" height="5" rx="2.5" fill="#D8DEE9" opacity=".75"/>
+<rect x="84" y="84" width="10" height="10" rx="5" fill="#7AA2F7"/>
+<rect x="102" y="86.5" width="90" height="5" rx="2.5" fill="#8A94A6" opacity=".7"/>
+<rect x="84" y="102" width="10" height="10" rx="5" fill="none" stroke="#4C5566" stroke-width="1.4"/>
+<rect x="102" y="104.5" width="110" height="5" rx="2.5" fill="#D8DEE9" opacity=".75"/>
+<rect x="84" y="126" width="46" height="16" rx="8" fill="#232B3D"/>
+<rect x="92" y="131.5" width="30" height="5" rx="2.5" fill="#7AA2F7"/>
+<circle cx="244" cy="154" r="8" fill="#7AA2F7"/>
+</g>
+<text x="2" y="414" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#0E0E10">NIGHT</text>
+<text x="266" y="414" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#0E0E10" opacity=".55">night</text>
+<g transform="translate(292,216)">
+<rect width="268" height="176" rx="12" fill="#FBF7F0" stroke="#E5E0D8"/>
+<path d="M12 0 H64 V176 H12 Q0 176 0 164 V12 Q0 0 12 0Z" fill="#F3EDE3"/>
+<line x1="64" y1="0" x2="64" y2="176" stroke="#E5E0D8"/>
+<rect x="12" y="18" width="34" height="5" rx="2.5" fill="#C2410C" opacity="1"/>
+<rect x="12" y="34" width="26" height="5" rx="2.5" fill="#6B7280" opacity="0.45"/>
+<rect x="12" y="50" width="30" height="5" rx="2.5" fill="#6B7280" opacity="0.45"/>
+<rect x="12" y="66" width="22" height="5" rx="2.5" fill="#6B7280" opacity="0.45"/>
+<rect x="84" y="20" width="110" height="10" rx="3" fill="#111827"/>
+<line x1="84" y1="40" x2="250" y2="40" stroke="#E5E0D8"/>
+<rect x="84" y="52" width="150" height="5" rx="2.5" fill="#1F2937" opacity=".75"/>
+<rect x="84" y="64" width="60" height="5" rx="2.5" fill="#1F2937" opacity=".75"/>
+<rect x="148" y="62" width="56" height="9" rx="2" fill="#FDE7A9"/>
+<rect x="150" y="64" width="52" height="5" rx="2.5" fill="#1F2937" opacity=".75"/>
+<rect x="84" y="84" width="10" height="10" rx="5" fill="#C2410C"/>
+<rect x="102" y="86.5" width="90" height="5" rx="2.5" fill="#6B7280" opacity=".7"/>
+<rect x="84" y="102" width="10" height="10" rx="5" fill="none" stroke="#B8B0A3" stroke-width="1.4"/>
+<rect x="102" y="104.5" width="110" height="5" rx="2.5" fill="#1F2937" opacity=".75"/>
+<rect x="84" y="126" width="46" height="16" rx="4" fill="#F6E3D3"/>
+<rect x="92" y="131.5" width="30" height="5" rx="2.5" fill="#9A3412"/>
+<circle cx="244" cy="154" r="8" fill="#C2410C"/>
+</g>
+<text x="294" y="414" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#0E0E10">PAPER</text>
+<text x="558" y="414" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#0E0E10" opacity=".55">paper</text>
+</svg>
